@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>mukesa_mmu></mukesa_mmu></title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://kit.fontawesome.com/8cc56e8b31.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+		<div class="header-left">
+			<img src="images/mukesa logo.jpg" alt="Avatar">
+		</div>
+		<div class="header-right">
+			<nav>
+				<ul>
+					<li><a href="#membership-section"></i>Membership</a></li>
+					<li><a href="#upcoming-events"></i>Events</a></li>
+					<li><a href="#testimonials"></i>Testimonials</a></li>
+					<li><a href="#research-section"></i>Research</a></li>
+					<li><a href="#contact-section"></i>Contacts</a></li>
+
+					<div class="dropdown">
+						<div class="social-icon">
+							<button><i class="fas fa-bars"></i></button>
+						</div>
+						<div class="dropdown-content">
+							<a href="./signin" onclick="window.location.href='#Sign in';"><i class="fas fa-user"></i>Sign in</a>
+							<a href="./about" onclick="window.location.href='#about';"><i class="fas fa-user"></i>About</a>
+							<a href="./vision" onclick="window.location.href='#vision';"><i class="fas fa-eye"></i>Vision</a>
+							<a href="./admin" onclick="window.location.href='#administration';"><i class="fas fa-users"></i>Administration</a>
+							<a href="./constitution" onclick="window.location.href='#constitution';"><i class="fas fa-file"></i>Constitution</a>
+							<a href="./logout" onclick="window.location.href='#Logout';"><i class="fas fa-sign-out-alt"></i>Logout</a>
+
+							
+						</div>
+					</div>
+				</ul>
+				</li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+	<section class="home-section">
+		<div class="home-section-text">
+		  <h1>MULTIMEDIA UNIVERSITY OF KENYA ENGINEERING STUDENTS ASSOCIATION</h1>
+		  <section class="current-date">
+			<p class="time"></p>
+			<p class="date"></p>
+		  </section>
+		</div>
+	  </section>
+	  
+
+	  <section id="testimonials">
+		<h2>Testimonials</h2>
+		<div class="testimonials-container">
+		<div class="testimonial">
+		  <img src="images/japh.png" alt="Testimonial Image">
+		  <p>"Mukesa has exposed me to a diverse range of experiential learning opportunities that go beyond the classroom.Mukesa has given me the opportunity to compete in prestigious competitions such as IEEEYESIST12 2023 Hackathon Finale and World Engineering Day Hackathon Finals 2024. "</p>
+		  <p>- Japheth Kiplagat, 4th Year Electrical Engineering Student</p>
+		</div>
+		<div class="testimonial">
+		  <img src="images/Iddah.jpeg" alt="Testimonial Image">
+		  <p>"Being a member of MUKESA has not only enhanced my technical knowledge, but also my leadership and teamwork skills. It's a great platform for personal and professional growth."</p>
+		  <p>- Malcom X, 2nd Year Engineering Student</p>
+		</div>
+		<div class="testimonial">
+		  <img src="images/mark-removebg-preview.png" alt="Testimonial Image">
+		  <p>"The events organized by MUKESA are always informative and engaging. They have helped me build a strong network and stay updated with the latest trends in the field of engineering."</p>
+		  <p>- Mark Wahogo, 3rd Year Electrical Engineering Student</p>
+		</div>
+	</div>
+	  </section>
+	  <section id="upcoming-events">
+		<h2>Events</h2>
+		<div class="event-slider">
+			<!-- Engineering Events -->
+			<div class="event">
+				<div class="event-details">
+					<h3>MUKESA Innovation Week</h3>
+					<p>Our organization is dedicated to inspire and mentor innovative engineering minds towards a greater realization in the field of science and engineering. This is a meeting place where engineers hungry to make a difference connect!</p>
+					<button onclick="registerNow()">Register Now</button>
+				</div>
+				<div class="event-image">
+					<img src="images/hackaton.jpg" alt="Upcoming Event Image">
+				</div>
+			</div>
+			<div class="event">
+				<div class="event-details">
+					<h3>Guest Lecture on Sustainable Energy</h3>
+					<p>Join us for an informative talk where industry leaders share their insights on the latest trends and the future of engineering.</p>
+					<button onclick="registerNow()">Register Now</button>
+				</div>
+				<div class="event-image">
+					<img src="images/robot.jpg" alt="Upcoming Event Image">
+				</div>
+			</div>
+	
+			<!-- Engineering Articles -->
+			<div class="event">
+				<div class="event-details">
+					<h3>Latest Engineering Articles</h3>
+					<p>Explore the latest engineering articles from IEEE for insights and innovations in various fields.</p>
+					<button onclick="window.location.href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiItP7R5vWEAxXX9gIHHZufDt8QFnoECCQQAQ&url=https%3A%2F%2Fopen.ieee.org%2Fieee-announces-6-new-fully-open-access-journals-and-3-hybrid-journals-coming-in-2024%2F&usg=AOvVaw2XetoO7OtfcMROtRU7apFd&opi=89978449'" class="read-articles-link">Read Articles</button>
+
+				</div>
+				<div class="event-image">
+					<img src="images/xplore.jpeg" alt="Engineering Article Image">
+				</div>
+			</div>
+			<!-- Engineering Technologies -->
+			<div class="event">
+				<div class="event-details">
+					<h3>New Engineering Technologies</h3>
+					<p>Discover cutting-edge engineering technologies shaping the future of the industry.</p>
+					<button onclick="window.location.href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwib3o6A4_WEAxU60AIHHUzSAHkQFnoECBoQAQ&url=https%3A%2F%2Fonline.njit.edu%2Fblog-posts%2Ffuture-engineering-4-emerging-technologies-and-trends&usg=AOvVaw3PXxW23YZW_4iwaKW-TZxN&opi=89978449'" class="explore-technologies-link">Explore Technologies</button>
+
+
+				</div>
+				<div class="event-image">
+					<img src="images/asi.jpeg" alt="Engineering Technology Image">
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<!-- <section id="upcoming-events">
+		<h2>Events</h2>
+		<div class="event">
+			<div class="event-image">
+				<img src="images/hackaton.jpg" alt="Upcoming Event Image">
+			</div>
+			<div class="event-details">
+				<h3>MUKESA Innovation Week</h3>
+				<p>Our organization is dedicated
+					to inspire and mentor innovative our engineering minds towards
+					a greater realization in the field of science and engineering. This
+					is a meeting place where engineers hungry to make a difference connect!
+				</p>
+				<button>Register Now</button>
+			</div>
+		</div>
+		<div class="event">
+			<div class="event-image">
+				<img src="images/robot.jpg" alt="Upcoming Event Image">
+			</div>
+			<div class="event-details">
+				<h3>Guest Lecture on Sustainable Energy</h3>
+				<p>Join us for an informative talk where industry leaders share their insights
+					on the latest trends and the future of engineering.
+				</p>
+				<button>Register Now</button>
+			</div>
+		</div>
+	</section> -->
+	<section id="research-section">
+		<h2 class="section-title">Research</h2>
+		<div class=" container-section-columns">
+			<div class="research-column">
+				<div class="video-window" id="vid1">
+					<div class="image-title">Smart Energy Monitoring System</div>
+					<p>The Smart Energy Monitoring System is a technologically advanced platform 
+						that tracks energy usage and provides real-time data to optimize energy efficiency. </p>
+				</div>
+				<div class="video-window-overlay"><i class="fas fa-play play-btn-icon"></i>
+					<iframe class="iframe" src="//www.youtube.com/embed/FVGvR9qlEc8" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="research-column">
+				<div class="video-window" id="vid2">
+					<div class="image-title">Autonomous Waste Management Robot</div>
+					<p>The Autonomous Waste Management Robot is a self-sufficient machine designed
+						 to collect and dispose of waste materials without human intervention. </p>
+					</div>
+					<div class="video-window-overlay"><i class="fas fa-play play-btn-icon"></i>
+						<iframe class="iframe" src="//www.youtube.com/embed/kp7PEkG62i8" frameborder="0" allowfullscreen></iframe>
+					</div>
+			</div>
+			<div class="research-column">
+				<div class="video-window" id="vid3">
+					<div class="image-title">Intelligent Transport System</div>
+					<p>The Intelligent Transport System is a sophisticated network that uses sensors
+						 and communication technologies to improve traffic flow, reduce congestion, and enhance road safety.</p>
+				</div>
+				<div class="video-window-overlay"><i class="fas fa-play play-btn-icon"></i>
+					<iframe class="iframe" src="//www.youtube.com/embed/CVG7_ymt_QQ" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="membership-section">
+			<h2>Membership</h2>
+			<div class="membership-container">
+			
+				<!-- <div class="membership-details">
+					<h2>Chat Area</h2>
+					<div class="chat-box">
+						<div class="chat">
+							<div class="message-info">
+								<p class="name">User Name</p>
+								<p class="time">Timestamp</p>
+							</div>
+							<p class="message">Hey guys, have you heard about the latest opportunity for engineering students at the local robotics company? It's a great chance to gain hands-on experience!</p>
+						</div>
+					</div>
+					<form class="comment-form" action="/postComment" method="post">
+						<textarea name="content" placeholder="Post your comment or start a conversation"></textarea>
+						<button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i></button>
+					</form>
+					If the user is not logged in, display a link to log in
+				
+						<a href="/login" class="submit-btn">Log in to post a comment</a>
+					
+				</div> -->
+
+				<div class="membership-details">
+					<h2>Chat App</h2>
+					<div class="chat-box">
+						<div class="chat">
+							<div class="message">
+								<div class="profile-info">
+									<img class="profile-pic" id="profile-pic" src="images/ren.PNG" alt="User Profile Picture">
+									<div class="name-time">
+										<p class="name" id="user-name">mukesa1819@gmail.com</p>
+										<p class="time" id="message-time"></p>
+									</div>
+								</div>
+								<p class="message">Hey guys, have you heard about the latest opportunity for engineering students at the local robotics company? It's a great chance to gain hands-on experience!</p>
+							</div>
+						</div>
+					</div>
+					<form class="comment-form" action="/postComment" method="post">
+						<textarea name="content" id="comment-content" placeholder="Post your comment or start a conversation"></textarea>
+						<button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i></button>
+					</form>
+					<a href="/login" class="submit-btn">Log in to post a comment</a>
+					<!-- If the user is not logged in, display a link to log in -->
+				</div>
+				
+			
+			<div class="membership-form">
+				<h3>Enroll Now</h3>
+				<form action='/register' method="post"> 
+					<div class="preference">
+						<label for="name">Name</label>
+						<input type="text" id="name" placeholder="Enter your name">
+					</div>
+					<div class="preference">
+						<label for="email">Email</label>
+						<input type="email" id="email" placeholder="Enter your email">
+					</div>
+					<div class="preference">
+						<label for="year">Year of Study</label>
+						<select id="year">
+							<option value="1st year">1st year</option>
+							<option value="2nd year">2nd year</option>
+							<option value="3rd year">3rd year</option>
+							<option value="4th year">4th year</option>
+							<option value="postgraduate">Postgraduate</option>
+						</select>
+					</div>
+					<div class="preference">
+						<label for="registrationNumber" placeholder>Registration Number</label>
+						<input type="registratioNnumber" id="registrationNumber"
+							placeholder="Enter your registration Number">
+					</div>
+					<div class="preference">
+						<label for="password" placeholder>Enter your Password</label>
+						<input type="password" id="password" placeholder="Enter your password">
+					</div>
+					<div class="preference">
+						<label for="payment" placeholder>Payment method</label>
+						<select id="payment">
+							<option value="M-PESA" action='/stkPush' method="post">M-PESA</option>
+							<option value="ACCOUNT">BANK ACCOUNT</option>
+						</select>
+					</div>
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+
+			<div class="payment-form">
+				<div id="mpesa-details">
+					<p>
+						<strong>PAYBILL</strong><span></span>
+						<strong> ACCOUNT NUMBER:</strong><span class="registration-number">9999444</span>
+	
+				</div>
+				<div id="bank-details">
+					<p>
+						<strong>ACCOUNT NAME</strong>
+						<span>KCB BANK</span>
+						<strong>ACCOUNT NUMBER:</strong>
+						<span class="registration-number">13E8E389E9E9</span>
+	
+				</div>
+			</div>
+		</div>
+
+
+	</section>
+	<section id="contact-section">
+		<h2>Contact Us</h2>
+		<p>We'd love to hear from you. Contact us for any inquiries or suggestions:</p>
+		<form action='/comments' method="post">
+			<label for="name">Name</label>
+			<input type="text" id="name" placeholder="Enter your name">
+			<label for="email">Email</label>
+			<input type="email" id="email" placeholder="Enter your email">
+			<label for="message">Message</label>
+			<textarea id="message" placeholder="Enter your message"></textarea>
+		</form>
+
+		<button type="submit">Send</button>
+		<div class="social-media">
+			<a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp" style="color: green;"></i></a>
+			<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" style="color: blue;"></i></a>
+			<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" style="color: #1da1f2;"></i></a>
+			<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" style="color: #e1306c;"></i></a>
+			<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in" style="color: #0077b5;"></i></a>
+		</div>
+
+	</section>
+
+	<footer>
+		<p>©2024 Multimedia University of Kenya Engineering Students Association. All Rights Reserved.</p>
+	</footer>
+	<script src="../Controllers/login.js" type="text/javascript"></script>
+	<script src="../src/checkbox.js" type="text/javascript"></script>
+	<script src="../src/database.js" type="text/javascript"></script>
+	<script src="../src/video.js" type="text/javascript"></script>
+	<script src="../src/date.js" type="text/javascript"></script>
+	<script src="../src/chatbox.js" type="text/javascript"></script>
+	<script src="../src/payment.js" type="text/javascript"></script>
+	<script src="../src/reset.js" type="text/javascript"></script>
+	<script src="../src/stk.js" type="text/javascript"></script>
+	<script src="../src/profile.js" type="text/javascript"></script>
+	<script src="../src/frontend.js" type="text/javascript"></script>
+	<script src="../src/slider.js" type="text/javascript"></script>
+	<!-- <script src="../src/post.js" type="text/javascript"></script> -->
+			    <!-- Include Axios -->
+				<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+				<!-- Include your client-side JavaScript file -->
+				<script src="../src/axios.js"></script>
+</body>
+
+</html>

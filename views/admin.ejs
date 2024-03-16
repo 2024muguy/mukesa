@@ -1,0 +1,74 @@
+<%- include('Header.ejs') %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Administration</title>
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
+    <script src="https://kit.fontawesome.com/8cc56e8b31.js" crossorigin="anonymous"></script>
+    <style>
+        /* Import Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+</head>
+
+<body>
+    <main class="admin-container">
+
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="images/mukesa logo.jpg" alt="Organization Logo">
+        </div>
+
+        <!-- Patron -->
+        <div class="patron-container">
+            <h2>Patron</h2>
+            <div class="patron">
+                <img src="images/dean.jpg" alt="Dean, Faculty of Engineering">
+                <p>Dean, Faculty of Engineering</p>
+            </div>
+        </div>
+
+        <h1>Executive Officials</h1>
+
+        <!-- Officials for 2024 - 2025 -->
+        <div class="year-container">
+            <h2>2024 - 2025</h2>
+            <div class="leaders-container">
+                <!-- Executive officials for 2024 - 2025 -->
+                <div class="leader">
+                    <img src="images/leader1.jpg" alt="Leader 1">
+                    <p>Chairperson</p>
+                </div>
+                <div class="leader">
+                    <img src="images/leader2.jpg" alt="Leader 2">
+                    <p>Vice-Chairperson</p>
+                </div>
+                <!-- Add more executive officials here -->
+            </div>
+        </div>
+
+        <!-- Officials for 2022 - 2023 -->
+        <div class="year-container">
+            <h2>2022 - 2023</h2>
+            <div class="leaders-container">
+                <!-- Executive officials for 2022 - 2023 -->
+                <div class="leader">
+                    <img src="images/leader3.jpg" alt="Leader 3">
+                    <p>Chairperson</p>
+                </div>
+                <div class="leader">
+                    <img src="images/leader4.jpg" alt="Leader 4">
+                    <p>Vice-Chairperson</p>
+                </div>
+                <!-- Add more executive officials here -->
+            </div>
+        </div>
+
+    </main>
+
+    <%- include('Footer.ejs') %>
+</body>
+
+</html>

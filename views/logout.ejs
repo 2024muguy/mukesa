@@ -1,0 +1,30 @@
+<%- include('Header.ejs') %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Logout</title>
+	<link rel="stylesheet" type="text/css" href="css/logout.css">
+	<script src="https://kit.fontawesome.com/8cc56e8b31.js" crossorigin="anonymous"></script>
+	<style>
+		/* Import Google Fonts */
+		@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+	</style>
+</head>
+<main class="logout-container">
+        
+	<!-- Logo -->
+	<div class="logo-container">
+		<img src="images/mukesa logo.jpg" alt="Organization Logo">
+	</div>
+
+	<h1>Logout</h1>
+	<p>Are you sure you want to log out?</p>
+	<form action="/logout" method="post" class="confirmation-buttons">
+		<button id="yes-btn" class="btn" type="submit">Yes</button>
+		<a href="/" id="no-btn" class="btn">No</a>
+	</form>
+</main>
+<%- include('Footer.ejs') %>
+
